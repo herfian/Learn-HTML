@@ -1,0 +1,114 @@
+<!-- TASK -->
+<!-- 1. Perbaiki error di <form> -->
+<!-- 2. Tambahkan satu <option> di dalam <select> dengan tulisan Mercedes dan value=Mercedes -->
+<!-- 3. Tambahkan attribute placeholder di <textarea> dengan nilai Tulis jawaban Anda di sini -->
+
+    <!-- <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Form</title>
+      </head>
+      <body>
+    
+        <for
+          <fieldset>
+            <>Contoh Form</legend>
+    
+            <div>
+              <label>Nama: </label>
+              <input type="text" nae="nama" />
+            </div>
+    
+            <div>
+              <p>Jenis Kelamin:</p>
+              <input type="radio" value="laki-laki" checked />
+              <label>Laki - Laki</label>
+              <input type="radio" name="jenis_kelamin" value="perempuan" />
+              <label>Perempuan</label>
+            </div>
+    
+            <div>
+              <p>Bidang yang dikuasai:</p>
+              <checkbox type="input" name="web" /> Web
+              <checkbox type="input" name="mobile" /> Mobile
+              <checkbox type="input" name="desk" /> Desktop
+            </div>
+    
+            <div>
+              <p>Mobil:</p>
+              <select name="mobil">
+                <option value="Volvo">Volvo</option>
+              </select>
+            </div>
+    
+            <div>
+              <p>Ceritakan pengalaman anda:</p>
+              <areatext
+                rows="10"
+                cols="60"
+                name="pengalaman"
+              ></areatext>
+            </div>
+    
+            <input type="submit" value="Submit" />
+          </fieldset>
+        </form>
+      
+      </body>
+    </html> -->
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Form</title>
+      </head>
+      <body>
+    
+        <form>
+          <fieldset>
+            <legend>Contoh Form</legend>
+    
+            <div>
+              <label>Nama: </label>
+              <input type="text" name="nama" />
+            </div>
+    
+            <div>
+              <p>Jenis Kelamin:</p>
+              <input type="radio" name="jenis_kelamin" value="laki-laki" checked />
+              <label>Laki - Laki</label>
+              <input type="radio" name="jenis_kelamin" value="perempuan" checked />
+              <label>Perempuan</label>
+            </div>
+    
+            <div>
+              <p>Bidang yang dikuasai:</p>
+              <input type="checkbox" name="web" /> Web
+              <input type="checkbox" name="mobile" /> Mobile
+              <input type="checkbox" name="desk" /> Desktop
+            </div>
+    
+            <div>
+              <p>Mobil:</p>
+              <select name="mobil">
+                <option value="Volvo">Volvo</option>
+                <option value="Mercedes">Mercedes</option>
+              </select>
+            </div>
+    
+            <div>
+              <p>Ceritakan pengalaman anda:</p>
+              <textarea
+                rows="10"
+                cols="60"
+                name="pengalaman"
+                placeholder="Tulis jawaban Anda di sini"
+              ></textarea>
+            </div>
+    
+            <input type="submit" value="Submit" />
+          </fieldset>
+        </form>
+      
+      </body>
+    </html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form HTML</title>
+</head>
+<body>
+     <form> <!-- Tag yang digunakan untuk mengawali form -->
+         <fieldset> <!-- Tag untuk memberikan garis tepi yang ingin dikelompokan -->
+            <legend>Formulir Calon Pegawai</legend>  <!-- Tag memberikan keterangan pada suatu element -->
+
+            <p>Nama : <input type="text" name="nama"></p>
+            <p>Alamat : <input type="text" name="alamat"></p>
+            <p>Password : <input type="password" name="pass"></p>
+            <p>
+                Jenis Kelamin :
+                <input type="radio" name="jk" value="laki-laki" checked />
+                    Laki-Laki
+                <input type="radio" name="jk" value="perempuan" checked />
+                    Perempuan
+            </p>
+            <p>
+                Bahasa Pemrograman Yang Dikuasai :
+                    <input type="checkbox" name="web"> Web
+                    <input type="checkbox" name="mobile"> Mobile
+                    <input type="checkbox" name="ios"> iOS
+            </p>
+            <p>
+                Kota Asal :
+                <select>
+                    <option>Jakarta</option>
+                    <option>Bali</option>
+                    <option>Jogja</option>
+                    <option>Samarinda</option>
+                </select>
+            </p>
+            <p>
+                Apa yang membuat kami harus memilih anda?:<br>
+                <textarea rows="5" cols="65" placeholder="Tulis jawaban anda disini"></textarea>
+            </p>
+            <p><input type="submit" value="Proses"></p>
+        </fieldset>
+    </form>
+</body>
+</html>
